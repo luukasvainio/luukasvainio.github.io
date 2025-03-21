@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, serif;
-    background-color: black; /* Black background */
+    background-color: #00008B;
     color: white;
     margin: 0;
     padding: 0;
@@ -8,14 +8,18 @@ body {
 }
 
 header {
-    background-color: #00008B; /* Dark blue header */
+    background-color: white; 
     padding: 20px;
 }
 
 h1 {
     margin: 0;
     font-size: 2em;
-    color: #ff1493; /* Deep pink */
+    color: #ff1493; 
+}
+
+h2 {
+	color: #ff1493
 }
 
 nav ul {
@@ -29,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -41,12 +45,12 @@ main {
 section {
     margin: 20px 0;
     padding: 15px;
-    background-color: #ff1493; /* Light deep pink transparent background */
+    background-color: black; 
     border-radius: 10px;
 }
 
 footer {
-    background-color: #00008B; /* Dark blue footer */
+    background-color: #ff1493;
     padding: 10px;
     position: relative;
     bottom: 0;
